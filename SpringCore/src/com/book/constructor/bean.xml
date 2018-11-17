@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="id1" class="com.book.constructor.Category" autowire="constructor">
+<property name="name" value="programming books"></property>
+</bean>
+<bean id="book" class="com.book.constructor.Book">
+<property name="bookname" value="c++"></property>
+<property name="bookprice" value="200"></property>
+</bean>
+</beans>
